@@ -4,22 +4,22 @@ css布局汇总
 # Global 
  
  
-## clear-float   *
+## clear-float   
  
  
 # Layout 
  
  
-## fix-flex   *
+## fix-flex   
  左边固定右边自适应
  
-## fix-flex-v   *
+## fix-flex-v   
  
  
-## flex-fix   *
+## flex-fix   
  
  
-## flex-fix-v   *
+## flex-fix-v   
  
  
 ## fix-flex-fix 
