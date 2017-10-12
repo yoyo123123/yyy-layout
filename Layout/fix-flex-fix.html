@@ -1,0 +1,51 @@
+<template>
+    <div class="container">
+        <div class="left">左侧固定
+        </div>
+        <div class="body">自适应区域<br>主要内容区域主要内容区域主要内容区域主要内容区域主要内容区域 主要内容区域主要内容区域主要内容区域主要内容区域主要内容区域主要内容区域主 要内容区域
+            <br> 主要内容区域主要内容区域主要内容区域
+            <br> 主要内容区域主要内容区域主要内容区域
+            <br> 主要内容区域主要内容区域主要内容区域
+            <br> 主要内容区域主要内容区域主要内容区域
+            <br> 主要内容区域主要内容区域主要内容区域
+            <br> 主要内容区域主要内容区域主要内容区域
+            <br> 主要内容区域主要内容区域主要内容区域
+            <br> 主要内容区域主要内容区域主要内容区域
+            <br>
+        </div>
+
+        <div class="right">右侧固定</div>
+    </div>
+</template>
+
+<style>
+       *{
+            margin: 0;
+            padding: 0;
+        }
+        .left{
+            float: left;
+            width: 200px;
+            background: #af3;
+            margin-right: -200px;
+        }
+        .body{
+            float: left;
+            background: #3af;
+            width: auto;
+           margin-left: 200px;
+            margin-right: 200px;
+        }
+        .right{
+            float: right;
+            width: 200px;
+            background: #ff3;
+            margin-left: -200px;
+        }
+        .container:after{
+            display: block;
+            visibility: hidden;
+            content: "";
+            clear: both;
+        }
+</style>
