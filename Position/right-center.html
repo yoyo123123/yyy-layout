@@ -1,0 +1,31 @@
+<template>
+    <div class="container">
+        <div class="text">右部居中</div>
+    </div>
+</template>
+
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .container {
+        width: 100%;
+        height: 100%;
+        background: #69BEBE;
+    }
+
+    .text {
+        position: absolute;
+        text-align: center;
+        width: 200px;
+        height: 500px;
+        right: 0;
+        top: 50%;
+        margin-top: -250px;
+        /*设置为height的一半*/
+        overflow: hidden;
+        background: #DB662F;
+    }
+</style>
