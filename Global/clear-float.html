@@ -1,11 +1,32 @@
-<template>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>clear-float</title>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/vue/2.1.3/vue.js"></script>
+</head>
+
+<body>
+<div id="app">
+  <clear-float></clear-float>
+</div>
+<template id="clear-float">
   <div class="container clear-float">
     <div class="left">左浮动</div>
     <div class="right">右浮动</div>
   </div>
 </template>
 
-<style type="text/css">
+<script>
+      Vue.component('clear-float',{
+          template: '#clear-float'
+      })
+
+      new Vue({
+          el: '#app'
+      })
+</script>
+
+<style>
      .container {
 			  width:400px;
 			  border:1px solid #F00;
@@ -17,19 +38,21 @@
 			  clear: both;
 			}
 			.left{
-               width:180px;
+         width:180px;
 			   height:100px;
 			   margin-left:2px;
-               border:1px solid #00F;
+         border:1px solid #00F;
 			   background:#FFF;
 			   float:left;
-            }
-            .right{
-              width:180px;
+      }
+      .right{
+        width:180px;
 			  height:100px;
 			  margin-right:2px;
-              border:1px solid #00F;
+        border:1px solid #00F;
 			  background:#FFF;
-              float:right;
-            }
+        float:right;
+      }
 </style>
+</body>
+</html>
