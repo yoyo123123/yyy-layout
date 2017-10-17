@@ -1,0 +1,35 @@
+<template>
+    <div class="container">
+        <div class="head">头部固定</div>
+        <div class="body">中间自适应</div>
+        <div class="foot">尾部固定</div>
+    </div>
+</template>
+
+<style>
+    .head {
+        height: 100px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        background: #B0DB84;
+    }
+
+    .body {
+        width: 100%;
+        position: absolute;
+        top: 100px;
+        bottom: 100px;
+        overflow: auto;
+        /**滚动条*/
+        background: #D66C15;
+    }
+
+    .foot {
+        height: 100px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        background: #5C514A;
+    }
+</style>
