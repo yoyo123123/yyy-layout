@@ -1,29 +1,20 @@
 <template id="icon-button">
     <div class="container">
-        <button class="button">
-            <i class="icon">图标区域</i>
-            <span class="text">文本区域</span>
-        </button>
+        <img src="http://myfamily.sohu-inc.com/images/add.png" class="icon">
+        <button class="button"> click here!</button>
     </div>
 </template>
 
 <style>
    .button {
+        height:40px;
         width:80px;
-        height:100px;
+        border:none;
         background-color: #927bff;
         color: #FFFFFF;
     }
     .icon {
-        display: inline-block;
-    }
-    .icon:before {
-        text-decoration: none solid rgb(255, 255, 255);
-        content: "";
-    }
-    .text {
-        margin: 0 0 0 5px;
-        text-decoration: none solid rgb(255, 255, 255);
+        vertical-align: middle;
     }
 </style>
 
