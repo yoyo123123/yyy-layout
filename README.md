@@ -4,22 +4,22 @@ css布局汇总
 # Global 
  
  
-## clear-float   *
+## clear-float   
  
  
 # Layout 
  
  
-## fix-flex   *
+## fix-flex   
  左边固定右边自适应
  
-## fix-flex-v   *
+## fix-flex-v   
  
  
-## flex-fix   *
+## flex-fix   
  
  
-## flex-fix-v   *
+## flex-fix-v   
  
  
 ## fix-flex-fix 
@@ -35,7 +35,7 @@ css布局汇总
  
  
 ## normal-right 
- 非弹性布局
+ 非弹性布局，左边对右边没有影响
  
 ## left-center-right 
  
@@ -128,7 +128,7 @@ css布局汇总
  
  
 ## img-title-desc 
- 
+ 图片，标题，描述
  
 ## items-line 
  不换行 li

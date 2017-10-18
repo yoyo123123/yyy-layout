@@ -1,0 +1,29 @@
+<template id="icon-button">
+    <div class="container">
+        <button class="button">
+            <i class="icon">图标区域</i>
+            <span class="text">文本区域</span>
+        </button>
+    </div>
+</template>
+
+<style>
+    .button {
+        background: rgb(32, 160, 255);
+        width:auto;
+        height:80px;
+        border: 1px solid rgb(32, 160, 255);
+    }
+    .icon {
+        display: inline-block;
+    }
+    .icon:before {
+        text-decoration: none solid rgb(255, 255, 255);
+        content: "";
+    }
+    .text {
+        margin: 0 0 0 5px;
+        text-decoration: none solid rgb(255, 255, 255);
+    }
+</style>
+
